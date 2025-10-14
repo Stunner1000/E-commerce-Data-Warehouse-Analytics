@@ -33,8 +33,6 @@ This project aims to build a comprehensive e-commerce data warehouse and advance
 
 ## Data Model
 
-
-
 The data warehouse follows a star schema, with a central `sales_fact` table connected to dimension tables: `customer_dimension`, `product_dimension`, and `time_dimension`.
 
 -   **`customer_dimension`**: Stores information about customers.
@@ -74,8 +72,6 @@ The data warehouse follows a star schema, with a central `sales_fact` table conn
 
 ## ETL Pipeline
 
-*(Explain the ETL process. Describe how data is extracted from source files, transformed, and loaded into the data warehouse tables. You can reference the relevant notebook cells or scripts.)*
-
 The ETL pipeline involves reading data from simulated CSV files (`customers.csv`, `products.csv`, `orders.csv`, `order_items.csv`), performing necessary data type conversions and calculations (e.g., `date_key`, `line_total`), and loading the processed data into the SQLite database using SQLAlchemy and pandas.
 
 ## Advanced SQL Analytics
@@ -90,8 +86,6 @@ Key SQL analytics performed include:
 -   **RFM Segmentation**: Segmenting customers based on their Recency, Frequency, and Monetary values.
 
 ## Streamlit Dashboard
-
-*(Describe the Streamlit dashboard, its purpose, and the visualizations included. Explain how to run the dashboard.)*
 
 The Streamlit dashboard provides an interactive interface to explore the e-commerce data and the results of the advanced analytics. Key features include:
 
