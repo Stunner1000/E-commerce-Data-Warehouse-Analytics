@@ -33,7 +33,7 @@ This project aims to build a comprehensive e-commerce data warehouse and advance
 
 ## Data Model
 
-*(Describe your data model here. You can include a diagram or list the tables and their columns.)*
+
 
 The data warehouse follows a star schema, with a central `sales_fact` table connected to dimension tables: `customer_dimension`, `product_dimension`, and `time_dimension`.
 
